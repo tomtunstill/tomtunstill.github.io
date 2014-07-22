@@ -62,7 +62,7 @@ The <a name="pageriser" href="pageriser/index.html">pageriser</a> groups divs in
     <div class="item"><a href="">T</a></div>
 </div>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
-<script src="http://kenwheeler.github.io/slick/slick/slick.js"></script>
+<script src="https://github.com/kenwheeler/slick/raw/master/slick/slick.js"></script>
 <script src="javascripts/pageriser.js"></script>
 <script src="javascripts/pageriser-demo.js"></script>
 </section>
