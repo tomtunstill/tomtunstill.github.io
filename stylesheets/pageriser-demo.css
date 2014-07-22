@@ -1,0 +1,63 @@
+.item{
+    height:75px;
+    width:75px;
+    background-color:#FF0000;
+    padding:0px;
+    border:0;
+    border-radius:40px;
+    float:left;
+    text-align:center;
+}
+.item a{
+    position:relative;
+    top:18px;
+    font-size:30px;
+}
+.hide{
+    display:none;
+}
+.item-page{
+    display:none;
+}
+
+.item-row{
+    float:none;
+    overflow:auto;
+}
+.list-parent{
+    width:235px;
+    height:235px;
+    left:100px;
+}
+
+.item a{
+	outline: 0;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+
+/* payment methods on focus */
+.item a:focus{
+	font-weight: bold;
+}
+
+.slick-prev:before,.slick-next:before{
+    background-color: #FF0000;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: bold;
+}
+.slick-prev,.slick-next{
+    height: 50px;
+    width: 50px;
+}
+.slick-prev{
+    left:-50px;
+}
+.slick-next{
+    right:-50px;
+}
+.slick-next:focus,.slick-prev:focus{
+	outline: 0;		
+	font-weight: bold;
+}
