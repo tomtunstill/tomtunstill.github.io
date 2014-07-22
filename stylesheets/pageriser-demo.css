@@ -7,17 +7,21 @@
     border-radius:40px;
     float:left;
     text-align:center;
+    overflow:hidden;
 }
 .item a{
     position:relative;
     top:18px;
     font-size:30px;
+    left:-50px;
+    padding-left:80px;
 }
 .hide{
     display:none;
 }
 .item-page{
     display:none;
+    width:100%;
 }
 
 .item-row{
