@@ -15,11 +15,11 @@
 		});
 		return carousel;
 	}
-	$("#theParent").arrange().slick({
+	$("#theParent").pagerise({pageRows:2,pageCols:5}).slick({
 		accessiblity: true,
 		slidesToShow: 1,
 		slidesToScroll: 1,
 		centerPadding: '0',
-		infinite: false
+		infinite: false,
 	}).slickPages();
 }( jQuery ));
